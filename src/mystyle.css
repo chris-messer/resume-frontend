@@ -17,7 +17,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 0.8em; line-height: 1.0; }
+body { margin: 0; font-size: 1em; line-height: 1.0; }
 
 body, button, input, select, textarea { font-family: "Times New Roman"; color: #222; }
 
@@ -83,7 +83,7 @@ sub { bottom: -0.25em; }
    Lists
    ========================================================================== */
 
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+/*ul, ol { margin: 1em 0; padding: 0 0 0 40px; }*/
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
@@ -191,8 +191,8 @@ td { vertical-align: top; }
    ========================================================================== */
 
 .container {
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -258,7 +258,7 @@ td{
     line-height: 0em;
 }
 .companyname {
-    /*font-weight: bold;*/
+    font-weight: normal;
     margin-bottom: 1.1em;
     /*margin-top: 0em;*/
     line-height: 0em;
@@ -269,12 +269,33 @@ td{
     line-height: 0em;
 }
 
+.role{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    line-height: 0em;
+}
+
+.responsibilities{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    line-height: 1em;
+}
+
+.competencies_list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
 h1 {text-align: center;
     line-height: 0em}
 h2 {line-height: 0em;
     font-size: 1.3em;}
-hr {margin-bottom: -.5em;}
+h3 {line-height: 0em;
 
+}
+hr {margin-bottom: -.5em;}
+/*li{margin: 00px 0;*/
+/*}*/
 section{margin-bottom: 2em;}
 
 
