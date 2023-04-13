@@ -269,6 +269,20 @@ td{
     line-height: 0em;
 }
 
+.counter_st{
+    text-align: right;
+    margin-top: -2em;
+    margin-bottom: 0em;
+    line-height: 0em;
+}
+
+.textbox{
+    text-align: right;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    line-height: 0em;
+}
+
 .role{
     margin-top: 0em;
     margin-bottom: 0em;
@@ -276,13 +290,14 @@ td{
 }
 
 .responsibilities{
-    margin-top: 0em;
+    margin-top: 1em;
     margin-bottom: 0em;
-    line-height: 1em;
+    line-height: 1.25em;
 }
 
 .competencies_list{
     list-style-type: none;
+    line-height: 1.25em;
     padding-left: 0px;
 }
 

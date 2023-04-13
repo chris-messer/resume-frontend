@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <link rel="stylesheet" href="mystyle.css">
+<script src="visitor_count.js"></script>
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -11,12 +12,15 @@
 <div class="container">
     <header>
         <h1 id="name" >Christopher Lee Messer</h1>
-        <div id="textbox">
+        <div id="textbox" class="textbox">
             <p class="alignleft">Fort Worth, TX 76104</p>
             <p class="aligncenter"></p>
             <p class="alignright">chrislmesser@gmail.com</p>
+
         </div>
         <div style="clear: both;"></div>
+    <dt class="counter_st">
+    </dt>
 
 
     </header>
@@ -24,9 +28,9 @@
 
     <main>
         <section id="Education">
+
             <h2 class="title">EDUCATION</h2>
             <hr>
-
             <school class="school">
                 <h3 class="schoolname">Georgia Institute of Technology</h3>
                     <degree_ class="degree">
@@ -49,7 +53,7 @@
 
                     <degree_ class="degree">
                         <p>
-                            <span class="left">Master of Accounting <i>(Honors)</i></span><span class="right">May 2018</span>
+                            <span class="left">BBA Accounting, Finance <i>(Magma Cum Laude)</i></span><span class="right">May 2018</span>
                             <br>
                         </p>
                     </degree_>
@@ -115,7 +119,7 @@
 
                 <role class="role">
                     <p>
-                        <span class="left"><i>Senior Auditor</i></span>
+                        <span class="left"><i>Senior Auditor - Analytics</i></span>
                         <span class="right"><i>(Fall/Winter/Spring)</i></span>
                         <br>
 
@@ -142,13 +146,16 @@
         <section id="personal_projects">
             <h2 class="title">PERSONAL PROJECTS</h2>
             <hr>
+            <responsibilities class="responsibilities">
             <ul>
-            <li>Created a network visualization of TCU student Instagram accounts to categorize students into social circles.</li>
-                <li>Designed freshmen dormitory orientation around categories, increasing program attendance by 20%</li>
+            <li>Created a network visualization to cluster incoming students based on common friends, increasing orientation program attendance by 12% year over year</li>
                 <li>Built a database that tracked and stored deleted tweets of US legislative politicians using Python and SQL</li>
-                <li>Generated $5,000 in revenue from a Python and SQL program that scraped a user’s social media, generated a similar message with Machine Learning, and tweeted the result. Program deployed on Heroku</li>
-                <li>Developed and marketed a “smart” coaster powered by NFC, generating $1,000 in monthly revenue</li>
+                <li>Built an application to predict the price of Bitcoin based off of the sentiment of Reddit comments</li>
+                <li>Completed the
+                    <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/">cloud resume challenge</a>
+                    using AWS services (Lambda, Route 53, API Gateway, S3, DynamoDB) and deployed using CloudFormation</li>
             </ul>
+            </responsibilities>
         </section>
 
         <section id="competencies">
@@ -156,10 +163,10 @@
             <hr>
             <ul class="competencies_list">
                 <li>Specialist Certification – Word, Excel, PowerPoint, Access</li>
-                <li>Programming Languages – Visual Basic for Applications, Python, SQL</li>
+                <li>Programming Languages – Python, SQL, R</li>
                 <li>Cloud Services – AWS, GCP</li>
                 <li>Data visualization software – Tableau, Power BI, Gephi</li>
-                <li>Professional Certifications – Texas Certified Public Accountant</li>
+                <li>Professional Certifications – Texas Certified Public Accountant (CPA)</li>
             </ul>
         </section>
 
