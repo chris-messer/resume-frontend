@@ -301,6 +301,12 @@ td{
     padding-left: 0px;
 }
 
+.capacity{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    line-height: 0em;
+}
+
 h1 {text-align: center;
     line-height: 0em}
 h2 {line-height: 0em;
