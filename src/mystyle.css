@@ -276,6 +276,13 @@ td{
     line-height: 0em;
 }
 
+.counter_st_left{
+    text-align: left;
+    margin-top: -1em;
+    margin-bottom: 2em;
+    line-height: 0em;
+}
+
 .textbox{
     text-align: right;
     margin-top: 0em;
@@ -306,6 +313,8 @@ td{
     margin-bottom: 0em;
     line-height: 0em;
 }
+
+
 
 h1 {text-align: center;
     line-height: 0em}
