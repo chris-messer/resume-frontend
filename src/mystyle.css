@@ -277,8 +277,8 @@ td{
 }
 
 .counter_st_left{
-    text-align: left;
-    margin-top: -1em;
+    text-align: right;
+    margin-top: 0em;
     margin-bottom: 2em;
     line-height: 0em;
 }
