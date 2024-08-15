@@ -1,4 +1,4 @@
-from weasyprint import HTML, CSS
+# from weasyprint import HTML, CSS
 from bs4 import BeautifulSoup
 
 
@@ -59,12 +59,12 @@ def convert_to_local_copy():
         "href": "https://s3.amazonaws.com/chrislmesser.com/messer_chris_resume.pdf"}
 
     html_local = remove_specific_tag(html_local, 'a', attributes)
-    # with open('../src/resume_local.html', 'w', encoding='utf-8') as file:
-    #     file.write(html_local)
+    with open('../src/resume_local.html', 'w', encoding='utf-8') as file:
+        file.write(html_local)
     # stylized_html = combine_html_css(html_local, '../src/mystyle.css')
     # convert_html_to_pdf(stylized_html, '../src/resume_local.pdf')
-    import os
-
-    os.add_dll_directory(r"C:\Program Files\GTK3-Runtime Win64\bin")
-
-    HTML(string=html_local).write_pdf(target='../src/resume_local.pdf', stylesheets=[CSS('../src/mystyle.css')])
+    # import os
+    #
+    # os.add_dll_directory(r"C:\Program Files\GTK3-Runtime Win64\bin")
+    #
+    # HTML(string=html_local).write_pdf(target='../src/resume_local.pdf', stylesheets=[CSS('../src/mystyle.css')])

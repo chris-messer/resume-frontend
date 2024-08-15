@@ -15,7 +15,7 @@ def test_remove_class():
     target_html = '<div class="info">Info</div><div class="info">Another Element</div>'
     assert transformed_html == target_html
 
-# def test_create_local():
-#     from src.convert_to_pdf import convert_to_local_copy
-#     convert_to_local_copy()
-#     assert True
+def test_create_local():
+    from src.convert_to_pdf import convert_to_local_copy
+    convert_to_local_copy()
+    assert True
